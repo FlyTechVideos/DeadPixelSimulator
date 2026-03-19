@@ -35,7 +35,7 @@ This time, I provide you with the scripts to self compile. Basically all you hav
 3. Run this code
 
 ```powershell
-Set-ExecutionPolicy RemoteSigned –Scope Process
+Set-ExecutionPolicy Bypass –Scope Process
 .\Compiler.ps1
 ```
 
