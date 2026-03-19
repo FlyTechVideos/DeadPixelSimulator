@@ -8,10 +8,12 @@ As seen on YouTube (link to be updated once the video is online).
 
 ## READ THIS BEFORE YOU ACTUALLY RUN THE THING
 
+- **Never set $SpeedLevel higher than $MaxPixels. You will regret it, trust me.**
+- **Exit the simulator with F7.**
 - Your mouse will feel sluggish, that's expected and normal.
 - Yes, anything that changes your cursor will give the trick away, as you will see two cursors. 80/20 rule, guys.
-- To kill the simulator, you have to run `taskkill /f /im powershell.exe` as the generator actually runs as a PowerShell script in the background. The original exe just drops the script and then exits.
-- **After you kill the script, your cursor will be invisible. <ins>DON'T PANIC.</ins>** You can still use it, but it is invisible. Two ways to fix:
+- To kill the simulator (in case F7 does not work or something like that), you have to run `taskkill /f /im powershell.exe` as the generator actually runs as a PowerShell script in the background. The original exe just drops the script and then exits.
+- **If you kill the script via taskkill/task manager, your cursor will be invisible. <ins>DON'T PANIC.</ins>** You can still use your cursor, but it is invisible. Two ways to fix:
 	- Restart your computer / log out. Easiest fix.
 	- Use your keyboard to restore the cursor.
 		1. Start button
