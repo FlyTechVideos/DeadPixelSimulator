@@ -41,6 +41,7 @@ Set-ExecutionPolicy Bypass –Scope Process
 
 4. An exe file named "simulacron.exe" will spawn.
 5. Enjoy.
+6. Usually, you should be able to run it at least once after generation without AV interfering. Should Defender/your AV remove the EXE at some point (probably something like "Wacatac"), just continue from step 3. Should that also not work anymore, change the config values in [_Packager.cs](./_Packager.cs) and/or the .ico file and try again.
 
 ## What can I change?
 
