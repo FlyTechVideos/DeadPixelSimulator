@@ -9,6 +9,7 @@ As seen on YouTube (link to be updated once the video is online).
 ## READ THIS BEFORE YOU ACTUALLY RUN THE THING
 
 - **Never set $SpeedLevel higher than $MaxPixels. You will regret it, trust me.**
+- **Never run more than 1 instance at the same time. You will regret this one even more.**
 - **Exit the simulator with F7.**
 - Your mouse will feel sluggish, that's expected and normal.
 - Yes, anything that changes your cursor will give the trick away, as you will see two cursors. 80/20 rule, guys.
